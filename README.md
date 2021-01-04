@@ -4,7 +4,7 @@
 
 This app uses a deployment pipeline with CircleCI and Heroku.
 
-The config.yml file is found at https://github.com/mikipernu/docker-app/blob/master/.circleci/config.yml, which is basically the boilerplate orb for CircleCI and Heroku. CircleCI deploys the app to Heroku after a commit arrives to this repository.
+The __config.yml file__ is found [here](https://github.com/mikipernu/docker-app/blob/master/.circleci/config.yml), which is basically the boilerplate orb for CircleCI and Heroku. CircleCI deploys the app to Heroku after a commit arrives to this repository.
 
 The app is live at https://circleci-docker-app.herokuapp.com/.
 
